@@ -11,3 +11,6 @@ int main (){
 
   return 0;
 }
+
+// cout (insertion operator)
+// cin (extraction operator)
