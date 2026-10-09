@@ -10,7 +10,9 @@ void printnum(int num2 = 6)
 
 int main ()
 {
-    printnum(num1);
+    int num1 = 404;
+    printnum(::num1);
     // local variables = are declared inside a function or block {}
     // Global variables = are declared outside of all functions
+    // :: = is used for scope resolution (using the global variable instead of local)
 }
